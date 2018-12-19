@@ -21,9 +21,9 @@ for (let x = 0; x < width; x++) {
     grid[x] = new Array(height).fill(null);
 }
 
-coin1.src = '/assets/img/coin1.png';
-coin2.src = '/assets/img/coin2.png';
-bg.src = '/assets/img/bg.png';
+coin1.src = 'assets/img/coin1.png';
+coin2.src = 'assets/img/coin2.png';
+bg.src = 'assets/img/bg.png';
 window.addEventListener('resize', resize);
 canvas.addEventListener('mousemove', cursorMove);
 canvas.addEventListener('touchmove', cursorMove);
