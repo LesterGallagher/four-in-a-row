@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#multiplayer {
+    position: absolute;
+    top: 50%;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: none;
+}
+
+#result {
+    position: absolute;
+    top: 50%;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: none;
+}
+
